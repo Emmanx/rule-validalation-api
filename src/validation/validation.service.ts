@@ -97,7 +97,7 @@ export class ValidationService {
     }
 
     return {
-      message: `field ${rule.field} successfully validation.`,
+      message: `field ${rule.field} successfully validated.`,
       status: StatusTypes.SUCCESS,
       data: {
         validation: {
