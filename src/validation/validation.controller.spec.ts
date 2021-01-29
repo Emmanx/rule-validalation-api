@@ -1,6 +1,4 @@
-import { HttpException, HttpStatus } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
-import { StatusTypes } from '../types/response';
 import { ValidationController } from './validation.controller';
 import { Conditions } from './validation.dto';
 import { ValidationService } from './validation.service';
